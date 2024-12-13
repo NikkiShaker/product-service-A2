@@ -5,10 +5,90 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
+            name: "Sony WH-1000XM5 Wireless Headphones".to_string(),
+            price: 349.99,
+            description: "Immerse yourself in exceptional sound quality with Sony's WH-1000XM5 wireless headphones, featuring industry-leading noise cancellation and all-day comfort.".to_string(),
+            image: "/headphones.png".to_string()
+        },
+        Product {
+            id: 2,
+            name: "LG OLED C3 4K Smart TV".to_string(),
+            price: 799.99,
+            description: "Transform your home entertainment with the Samsung 4K UHD Smart TV. Enjoy stunning visuals, dynamic sound, and seamless streaming capabilities.".to_string(),
+            image: "/smart_tv.png".to_string()
+        },
+        Product {
+            id: 3,
+            name: "Apple iPhone 15 Pro".to_string(),
+            price: 999.99,
+            description: "Experience cutting-edge technology with the Apple iPhone 15 Pro, featuring a powerful A17 Bionic chip and an advanced camera system for breathtaking photos.".to_string(),
+            image: "/iphone.png".to_string()
+        },
+        Product {
+            id: 4,
+            name: "Dyson V15 Detect Cordless Vacuum".to_string(),
+            price: 749.99,
+            description: "Keep your home spotless with the Dyson V15 Detect Cordless Vacuum, featuring laser dust detection and unmatched suction power.".to_string(),
+            image: "/vacuum.png".to_string()
+        },
+        Product {
+            id: 5,
+            name: "Dell XPS 13 Laptop".to_string(),
+            price: 1299.99,
+            description: "Work and play on the go with the Dell XPS 13, offering a stunning InfinityEdge display, 12th Gen Intel processors, and exceptional portability.".to_string(),
+            image: "/laptop.png".to_string()
+        },
+        Product {
+            id: 6,
+            name: "GoPro HERO12 Black".to_string(),
+            price: 399.99,
+            description: "Capture your adventures in stunning detail with the GoPro HERO12 Black, equipped with 5.3K video recording, advanced stabilization, and waterproof design.".to_string(),
+            image: "/gopro.png".to_string()
+        },
+        Product {
+            id: 7,
+            name: "Bose Smart Soundbar 900".to_string(),
+            price: 899.99,
+            description: "Elevate your audio experience with the Bose Smart Soundbar 900, featuring immersive Dolby Atmos and voice assistant integration.".to_string(),
+            image: "/soundbar.png".to_string()
+        },
+        Product {
+            id: 8,
+            name: "Microsoft Surface Pro 9".to_string(),
+            price: 1199.99,
+            description: "Unleash creativity and productivity with the Microsoft Surface Pro 9, a versatile 2-in-1 device with a vibrant PixelSense touchscreen display.".to_string(),
+            image: "/surface.png".to_string()
+        },
+        Product {
+            id: 9,
+            name: "Fitbit Charge 6 Fitness Tracker".to_string(),
+            price: 179.99,
+            description: "Stay on top of your fitness goals with the Fitbit Charge 6, featuring heart rate monitoring, sleep tracking, and smartphone notifications.".to_string(),
+            image: "/fitbit.png".to_string()
+        },
+        Product {
+            id: 10,
+            name: "KitchenAid Artisan Stand Mixer".to_string(),
+            price: 499.99,
+            description: "Bring out your inner chef with the KitchenAid Artisan Stand Mixer, offering precision and versatility for all your baking and cooking needs.".to_string(),
+            image: "/mixer.png".to_string()
+        }
+    ]
+}
+
+
+
+/*use crate::model::Product;
+use crate::configuration::Settings;
+
+pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
+    vec![
+        Product {
+            id: 1,
             name: "Contoso Catnip's Friend".to_string(),
             price: 9.99,
             description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            image: "/headphones.png".to_string()
         },
         Product {
             id: 2,
@@ -74,4 +154,4 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
             image: "/lifejacket.jpg".to_string()
         }
     ]
-}
+}*/
